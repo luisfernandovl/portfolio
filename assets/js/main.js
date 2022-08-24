@@ -18,11 +18,6 @@ const debounce = function (func, wait, imediate) {
     };
 };
 
-const botoes = document.querySelector('.botao');
-botoes.addEventListener('click', (e) =>{
-    e.preventDefault();
-});
-
 //Ao clicar no "botão" projetos -> encaminhar para seção projetos.
 const linkAncoraProjetos = document.querySelector('.secao-apresentacao__ancora-projetos');
 
