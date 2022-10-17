@@ -1,10 +1,10 @@
 .cartao {
-    background-color: var(--cor-roxo-escuro);
-    border: 1px solid var(--cor-fundo);
+    background-color: var(--cor-fundo);
+    border: 1px solid var(--cor-contorno);
     box-sizing: border-box;
     border-radius: 0.25rem;
     box-shadow: 0px 8px 16px 0px var(--cor-sombra);
-    color: var(--cor-texto-secundario);
+    color: var(--cor-secundaria);
     margin: 1rem 0;
     max-width: calc(328px * 1.8);
     overflow: hidden;
@@ -33,29 +33,9 @@
     right: 0;
 }
 
-.cartao--web {
-    background-color: var(--cor-azul-escuro);
-    border: 1px solid var(--cor-azul-tap);
-}
-
-.cartao--mobile {
-    background-color: var(--cor-laranja-escuro);
-    border: 1px solid var(--cor-laranja-tap);
-}
-
-.cartao--desktop {
-    background-color: var(--cor-verde-escuro);
-    border: 1px solid var(--cor-verde-tap);
-}
-
-.cartao--design {
-    background-color: var(--cor-rosa-escuro);
-    border: 1px solid var(--cor-rosa-tap);
-}
-
 .cartao__tecnologias {
-    color: var(--cor-texto-principal);
-    background-color: var(--cor-roxo);
+    color: var(--cor-destaque);
+    background-color: var(--cor-superficie);
     display: flex;
     flex-flow: row wrap;
     font-size: var(--fonte-tamanho-texto-legenda);
@@ -66,19 +46,19 @@
 }
 
 .cartao__tecnologias--web {
-    background-color: var(--cor-azul);
+    color: var(--cor-web);
 }
 
 .cartao__tecnologias--mobile {
-    background-color: var(--cor-laranja);
+    color: var(--cor-mobile);
 }
 
 .cartao__tecnologias--desktop {
-    background-color: var(--cor-verde);
+    color: var(--cor-desktop);
 }
 
 .cartao__tecnologias--design {
-    background-color: var(--cor-rosa);
+    color: var(--cor-design);
 }
 
 .cartao__informacoes {
@@ -87,7 +67,7 @@
 }
 
 .cartao__informacoes-titulo {
-    color: var(--cor-texto-principal);
+    color: var(--cor-primaria);
     font-weight: var(--fonte-peso-semibold);
     margin-bottom: 0.5rem;
 }
@@ -97,7 +77,7 @@
 }
 
 .cartao__informacoes-lista-links {
-    color: var(--cor-texto-secundario);
+    color: var(--cor-secundaria);
     display: flex;
     flex-flow: row wrap;
     font-size: var(--fonte-tamanho-texto-legenda);

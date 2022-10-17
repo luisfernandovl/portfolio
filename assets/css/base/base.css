@@ -17,8 +17,8 @@
 }
 
 body {
-    background-color: var(--cor-fundo-escuro);
-    color: var(--cor-texto-secundario);
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
     font-family: var(--fonte-familia-principal);
     font-size: var(--fonte-tamanho-texto-corrido);
     font-weight: var(--fonte-peso-regular);
@@ -73,6 +73,12 @@ body {
 .icone-seta-dupla--baixo::after {
     content: "\ead0";
     font-family: 'Material Symbols Rounded';
+}
+
+.icone-alura {
+    font-family: var(--fonte-familia-alura);
+    font-size: 1rem;
+    height: 1rem;
 }
 
 .icone-facebook::before {

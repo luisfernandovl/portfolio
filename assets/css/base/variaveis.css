@@ -1,48 +1,30 @@
 :root {
     /* Cores - Temas*/
-    /*Roxo - Identidade visual da marca*/
-    /* --cor-roxo: hsl(272, 96%, 56%); */
-    --cor-roxo: #781fff;
-    /* --cor-roxo-claro: #BC73FC; */
-    --cor-roxo-claro: #aa73fc;
-    /* --cor-roxo-tap: #bc73fc1f; */
-    --cor-roxo-tap: #aa73fc2f;
-    --cor-roxo-escuro: #08000f;
-    /*Azul - sites*/
-    --cor-azul: #056cc7;
-    --cor-azul-claro: #2396FB;
-    --cor-azul-tap: #2396FB2F;
-    --cor-azul-escuro: #00080f;
-    /*Laranja - apps móveis*/
-    --cor-laranja: #A05703;
-    --cor-laranja-claro: #F08205;
-    --cor-laranja-tap: #F082052F;
-    --cor-laranja-escuro: #0f0800;
-    /*Laranja - apps de computadores*/
-    --cor-verde: #027802;
-    --cor-verde-claro: #03C903;
-    --cor-verde-tap: #03C9032F;
-    --cor-verde-escuro: #000f00;
-    /*Rosa - UI designs e identidades visuais*/
-    --cor-rosa: #C8046D;
-    --cor-rosa-claro: #FB2396;
-    --cor-rosa-tap: #FB23962F;
-    --cor-rosa-escuro: #0f0008;
-    /* Cores - Outras*/
-    --cor-texto-principal: #FAFAFA;
-    --cor-texto-secundario: #BDBBBE;
-    --cor-texto-terciario: #949296;
-    --cor-texto-desativado: #FAFAFAA0;
-    --cor-itens-inativos:#807D82;
-    --cor-divisoes:#575558;
-    --cor-fundo: #2E2D2F;
-    --cor-fundo-escuro:#0a090b;
+    --cor-destaque: #F5F5F5;
+    --cor-primaria: #E0E0E0;
+    --cor-tap: #E0E0E02F;
+    --cor-secundaria: #B8B8B8;
+    --cor-terciaria: #8F8F8F;
+    --cor-desativada: #666666;
+    --cor-contorno:#3D3D3D;
+    --cor-superficie: #141414;
+    --cor-fundo:#0A0A0A;
     --cor-sombra:#000000;
+    /* Cores - Tecnologias*/
+    --cor-web: #00C4F5;
+    --cor-web-tap: #00C4F52F;
+    --cor-mobile: #CCCC00;
+    --cor-mobile-tap: #CCCC002F;
+    --cor-desktop: #02CC00;
+    --cor-desktop-tap: #02CC002F;
+    --cor-design: #F50076;
+    --cor-design-tap: #F500762F;
     /* Fonte - Tamanho na raíz*/
     font-size: 16px;
     /* Fonte - Familias */
     --fonte-familia-marca: 'Turret Road', 'Oxanium', sans-serif;
     --fonte-familia-principal: 'Oxanium', sans-serif;
+    --fonte-familia-alura: 'Yanone Kaffeesatz', sans-serif;
     /* Fonte - Tamanhos */
     --fonte-tamanho-h1: 3.25rem;
     --fonte-tamanho-h2: 2.5rem;

@@ -1,6 +1,6 @@
 .rodape {
     align-items: center;
-    background-color: var(--cor-roxo-escuro);
+    background-color: var(--cor-fundo);
     display: flex;
     flex-direction: column;
     font-size: var(--fonte-tamanho-texto-legenda);

@@ -2,8 +2,8 @@
 //#region Constantes (elementos: cabeçalho e navegação).
 export const cabecalho = document.querySelector('.cabecalho');
 const cabecalhoLogo = document.querySelector('.cabecalho__logo');
-const coresDoCabecalho = ['cabecalho--web','cabecalho--mobile','cabecalho--desktop','cabecalho--design'];
-const todosItensDaNavegacao = document.querySelectorAll('.navegacao__item')
+const todosItensDaNavegacao = document.querySelectorAll('.navegacao__item');
+const coresDaNavegacao = ['navegacao__item--ativo-web','navegacao__item--ativo-mobile','navegacao__item--ativo-desktop','navegacao__item--ativo-design'];
 export const secoesDeProjeto = document.querySelectorAll('.secao-projetos');
 //#endregion
 
@@ -25,12 +25,11 @@ export function alterarEstadoDoCabecalho(){
     if(window.scrollY < secoesDeProjeto[0].offsetTop - cabecalho.offsetHeight){
         cabecalho.classList.remove('cabecalho--visivel');
         for(let i=0; i < todosItensDaNavegacao.length; i++){
-            cabecalho.classList.remove(coresDoCabecalho[i]);
-            todosItensDaNavegacao[i].classList.remove('navegacao__item--ativo');
+            todosItensDaNavegacao[i].classList.remove(coresDaNavegacao[i]);
         }
         return;
     }
-    
+
     //Está nas seções de projeto -> Ficar visível e com cores temas das seções.
     for (let i = 0; i < secoesDeProjeto.length; i++) {
         const posicaoInicialSecao = secoesDeProjeto[i].offsetTop - cabecalho.offsetHeight;
@@ -38,13 +37,11 @@ export function alterarEstadoDoCabecalho(){
 
         if (window.scrollY >= posicaoInicialSecao && window.scrollY < posicaoFinalSecao) {
             for(let j=0; j < secoesDeProjeto.length; j++){
-                cabecalho.classList.remove(coresDoCabecalho[j]);
-                todosItensDaNavegacao[j].classList.remove('navegacao__item--ativo')
+                todosItensDaNavegacao[j].classList.remove(coresDaNavegacao[j])
             }
             
             cabecalho.classList.add('cabecalho--visivel');
-            cabecalho.classList.add(coresDoCabecalho[i]);
-            todosItensDaNavegacao[i].classList.add('navegacao__item--ativo')
+            todosItensDaNavegacao[i].classList.add(coresDaNavegacao[i])
         }
     }
 }

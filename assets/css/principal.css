@@ -19,7 +19,7 @@
 }
 
 .secao-apresentacao__logo {
-    color: var(--cor-roxo);
+    color: var(--cor-destaque);
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-familia-marca);
@@ -44,7 +44,7 @@
 }
 
 .secao-apresentacao__texto {
-    color: var(--cor-texto-principal);
+    color: var(--cor-primaria);
     font-size: var(--fonte-tamanho-texto-grande);
     padding: 0 0.5rem;
     text-align: justify;
@@ -71,7 +71,7 @@
 }
 
 .secao-projetos {
-    border-top: 1px solid var(--cor-fundo);
+    border-top: 1px solid var(--cor-contorno);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -81,7 +81,7 @@
 }
 
 .secao-projetos:last-child {
-    border-bottom: 1px solid var(--cor-fundo);
+    border-bottom: 1px solid var(--cor-contorno);
 }
 
 @media screen and (min-width: 768px) {
