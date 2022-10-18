@@ -12,13 +12,17 @@
     --cor-sombra:#000000;
     /* Cores - Tecnologias*/
     --cor-web: #00C4F5;
-    --cor-web-tap: #00C4F52F;
+    --cor-web-secundaria: #0083A3;
+    --cor-web-tap: #00C4F51F;
     --cor-mobile: #CCCC00;
-    --cor-mobile-tap: #CCCC002F;
+    --cor-mobile-secundaria: #7A7A00;
+    --cor-mobile-tap: #CCCC001F;
     --cor-desktop: #02CC00;
-    --cor-desktop-tap: #02CC002F;
+    --cor-desktop-secundaria: #017A00;
+    --cor-desktop-tap: #02CC001F;
     --cor-design: #F50076;
-    --cor-design-tap: #F500762F;
+    --cor-design-secundaria: #CC0062;
+    --cor-design-tap: #F500761F;
     /* Fonte - Tamanho na raíz*/
     font-size: 16px;
     /* Fonte - Familias */

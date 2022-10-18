@@ -8,43 +8,52 @@
     -webkit-tap-highlight-color: var(--cor-tap);
 }
 
+.botao:hover,.botao:active {
+    border-color: var(--cor-destaque);
+    color: var(--cor-destaque);
+    cursor: pointer;
+}
+
 .botao--web {
+    border: 1px solid var(--cor-web-secundaria);
+    color: var(--cor-web-secundaria);
     -webkit-tap-highlight-color: var(--cor-web-tap);
 }
+
+.botao--web:hover,.botao--web:active {
+    border-color: var(--cor-web);
+    color: var(--cor-web);
+}
+
 .botao--mobile {
+    border: 1px solid var(--cor-mobile-secundaria);
+    color: var(--cor-mobile-secundaria);
     -webkit-tap-highlight-color: var(--cor-mobile-tap);
 }
+
+.botao--mobile:hover,.botao--mobile:active {
+    border-color: var(--cor-mobile);
+    color: var(--cor-mobile);
+}
+
 .botao--desktop {
+    border: 1px solid var(--cor-desktop-secundaria);
+    color: var(--cor-desktop-secundaria);
     -webkit-tap-highlight-color: var(--cor-desktop-tap);
 }
+
+.botao--desktop:hover,.botao--desktop:active {
+    border-color: var(--cor-desktop);
+    color: var(--cor-desktop);
+}
+
 .botao--design {
+    border: 1px solid var(--cor-design-secundaria);
+    color: var(--cor-design-secundaria);
     -webkit-tap-highlight-color: var(--cor-design-tap);
 }
 
-@media screen and (min-width: 768px) {
-    .botao:hover {
-        border-color: var(--cor-destaque);
-        color: var(--cor-destaque);
-        cursor: pointer;
-    }
-
-    .botao--web:hover {
-        border-color: var(--cor-web);
-        color: var(--cor-web);
-    }
-
-    .botao--mobile:hover {
-        border-color: var(--cor-mobile);
-        color: var(--cor-mobile);
-    }
-
-    .botao--desktop:hover {
-        border-color: var(--cor-desktop);
-        color: var(--cor-desktop);
-    }
-
-    .botao--design:hover {
-        border-color: var(--cor-design);
-        color: var(--cor-design);
-    }
+.botao--design:hover,.botao--design:active {
+    border-color: var(--cor-design);
+    color: var(--cor-design);
 }
