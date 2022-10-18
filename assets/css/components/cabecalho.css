@@ -101,7 +101,7 @@
 
     .navegacao__item:hover {
         cursor: pointer;
-        color: var(--cor-destaque);
+        color: var(--cor-primaria);
     }
 
     .navegacao__item-icone::before {
