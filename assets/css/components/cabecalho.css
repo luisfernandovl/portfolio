@@ -1,8 +1,9 @@
 .cabecalho {
     align-items: center;
-    background-color: var(--cor-superficie);
+    background-color: var(--cor-fundo);
     box-shadow: 0px 16px 32px 0px var(--cor-sombra);
     box-sizing: border-box;
+    border-bottom: 1px solid var(--cor-contorno);
     color: var(--cor-desativada);
     display: flex;
     flex-direction: column;
