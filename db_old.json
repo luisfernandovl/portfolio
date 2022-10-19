@@ -1,0 +1,218 @@
+[
+    {
+        "id": "web",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "titulo": "Ponto Café",
+        "descricao": "Cardápio virtual de uma suposta cafeteria.",
+        "links": [
+            "https://luisfernandovl.github.io/pontocafe/",
+            "https://github.com/luisfernandovl/pontocafe"
+        ],
+        "icones": [
+            "link",
+            "github"
+        ],
+        "botoes": [
+            "Conhecer site",
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "web",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "titulo": "KeyBox Escape Room",
+        "descricao": "Página de apresentação do local fictício.",
+        "links": [
+            "https://luisfernandovl.github.io/keyboxescaperoom/",
+            "https://github.com/luisfernandovl/keyboxescaperoom"
+        ],
+        "icones": [
+            "link",
+            "github"
+        ],
+        "botoes": [
+            "Conhecer site",
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "web",
+        "tecnologias": [
+            "React",
+            "SCSS",
+            "TypeScript"
+        ],
+        "titulo": "Event Tracker",
+        "descricao": "Site - agenda pessoal.",
+        "links": [
+            "https://eventtracker-luisfernandovl.vercel.app/",
+            "https://github.com/luisfernandovl/eventtracker"
+        ],
+        "icones": [
+            "link",
+            "github"
+        ],
+        "botoes": [
+            "Conhecer site",
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "web",
+        "tecnologias": [
+            "React",
+            "CSS",
+            "TypeScript"
+        ],
+        "titulo": "Sorteador de Amigo Secreto",
+        "descricao": "Realize o sorteio para saber seu amigo secreto.",
+        "links": [
+            "https://sorteadoramigosecreto-luisfernandovl.vercel.app/",
+            "https://github.com/luisfernandovl/sorteadoramigosecreto"
+        ],
+        "icones": [
+            "link",
+            "github"
+        ],
+        "botoes": [
+            "Conhecer site",
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "mobile",
+        "tecnologias": [
+            "React Native",
+            "TypeScript"
+        ],
+        "titulo": "Em breve...",
+        "descricao": "???",
+        "links": [
+            "#"
+        ],
+        "icones": [
+            "github"
+        ],
+        "botoes": [
+            "???"
+        ]
+    },
+    {
+        "id": "desktop",
+        "tecnologias": [
+            "C#",
+            ".NET",
+            "PostgreSQL"
+        ],
+        "titulo": "CountCoin",
+        "descricao": "Gerenciador de finanças pessoais.",
+        "links": [
+            "https://github.com/luisfernandovl/countcoin"
+        ],
+        "icones": [
+            "github"
+        ],
+        "botoes": [
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "desktop",
+        "tecnologias": [
+            "C#",
+            ".NET",
+            "PostgreSQL"
+        ],
+        "titulo": "EduFocus",
+        "descricao": "\"Kanban\" de atividades escolares.",
+        "links": [
+            "https://github.com/luisfernandovl/edufocus"
+        ],
+        "icones": [
+            "github"
+        ],
+        "botoes": [
+            "Conferir código"
+        ]
+    },
+    {
+        "id": "design",
+        "tecnologias": [
+            "Inkscape",
+            "Figma"
+        ],
+        "titulo": "Portfólio - Protótipo",
+        "descricao": "Este site.",
+        "links": [
+            "https://www.figma.com/file/O7a1uKgngoorTyNOsjWj9K/Portf%C3%B3lio-v1.0.0?node-id=157%3A2"
+        ],
+        "icones": [
+            "figma"
+        ],
+        "botoes": [
+            "Ver protótipo"
+        ]
+    },
+    {
+        "id": "design",
+        "tecnologias": [
+            "Inkscape",
+            "Figma"
+        ],
+        "titulo": "Ponto Café - Protótipo",
+        "descricao": "Site de cardápio.",
+        "links": [
+            "https://www.figma.com/file/ebQqsMEubmB0Gxdt4JTxGJ/Ponto-Caf%C3%A9-v1.0.0?node-id=0%3A1"
+        ],
+        "icones": [
+            "figma"
+        ],
+        "botoes": [
+            "Ver protótipo"
+        ]
+    },
+    {
+        "id": "design",
+        "tecnologias": [
+            "Inkscape",
+            "Figma"
+        ],
+        "titulo": "KeyBox Escape Room - Protótipo",
+        "descricao": "Site de apresentação.",
+        "links": [
+            "https://www.figma.com/file/Pmxdwbb7YMNVlVdASO0pZ7/Escape-Room-v1.0.0?node-id=75%3A610"
+        ],
+        "icones": [
+            "figma"
+        ],
+        "botoes": [
+            "Ver protótipo"
+        ]
+    },
+    {
+        "id": "design",
+        "tecnologias": [
+            "Inkscape",
+            "Figma"
+        ],
+        "titulo": "Design Diário - Protótipo",
+        "descricao": "App de postagens sobre design.",
+        "links": [
+            "https://www.figma.com/file/2CwKMoTsPDxBEdDsKsbFDe/Design-Di%C3%A1rio?node-id=0%3A1"
+        ],
+        "icones": [
+            "figma"
+        ],
+        "botoes": [
+            "Ver protótipo"
+        ]
+    }
+]
