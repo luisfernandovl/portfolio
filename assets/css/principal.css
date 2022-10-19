@@ -73,11 +73,15 @@
 .secao-projetos {
     border-top: 1px solid var(--cor-contorno);
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
     overflow: hidden;
     padding: 1rem 0;
     width: 100%;
+}
+
+.secao-projetos:last-child{
+    min-height: 100vh;
 }
 
 .secao-projetos:last-child {
@@ -106,9 +110,5 @@
     .secao-apresentacao__texto {
         width: 60%;
         text-align: center;
-    }
-
-    .secao-projetos {
-        justify-content: flex-start;
     }
 }
