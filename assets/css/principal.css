@@ -78,13 +78,6 @@
     overflow: hidden;
     padding: 1rem 0;
     width: 100%;
-}
-
-.secao-projetos:last-child{
-    min-height: 100vh;
-}
-
-.secao-projetos:last-child {
     border-bottom: 1px solid var(--cor-contorno);
 }
 

@@ -1,6 +1,7 @@
 "strict mode"
-import { alterarEstadoDoCabecalho, cabecalho, secoesDeProjeto } from "./cabecalho_old.js";
-import { alterarEstadoDosCartoes } from "./cartao.js";
+import { alterarEstadoDoCabecalho } from "./animacaoCabecalho.js";
+import { alterarEstadoDosCartoes } from "./animacaoCartao.js";
+import "./animacaoAncoraProjetos.js";
 
 //Função que estipula quantas vezes outra função é chamada.
 const debounce = function (func, wait, imediate) {
@@ -17,14 +18,6 @@ const debounce = function (func, wait, imediate) {
         if (callNow) func.apply(context, args);
     };
 };
-
-//Ao clicar no "botão" projetos -> encaminhar para seção projetos.
-const linkAncoraProjetos = document.querySelector('.secao-apresentacao__ancora-projetos');
-
-linkAncoraProjetos.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scroll({ top: secoesDeProjeto[0].offsetTop - cabecalho.offsetHeight + 1, behavior: 'smooth' });
-});
 
 //Quando o scroll é ativo -> mostra (ou não) o cabeçalho e os cartões.
 window.addEventListener('scroll', debounce(function () {

@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <header class="container cabecalho">
+    <header id="cabecalho" class="container cabecalho">
         <a href="#secao-apresentacao" target="_top" class="cabecalho__logo">
             <img src="assets/img/Logo_Simbolo_Branco.svg" title="Logomarca Luis Fernando Softwares e Designs"
                 alt="Logomarca Luis Fernando Softwares e Designs" class="cabecalho__logo-simbolo">
@@ -33,18 +33,18 @@
         <nav class="cabecalho__navegacao">
             <ul class="navegacao__lista" role="list">
                 <li class="navegacao__item navegacao__item--web" title="Websites" role="listitem">
-                    <a href="#secao-web" class="icone icone-web icone--margem-direita navegacao__item-icone">Web</a>
+                    <a class="icone icone-web icone--margem-direita navegacao__item-icone">Web</a>
                 </li>
                 <li class="navegacao__item navegacao__item--mobile" title="Aplicativos móveis" role="listitem">
-                    <a href="#secao-mobile"
+                    <a
                         class="icone icone-mobile icone--margem-direita navegacao__item-icone">Mobile</a>
                 </li>
                 <li class="navegacao__item navegacao__item--desktop" title="Aplicativos para computadores" role="listitem">
-                    <a href="#secao-desktop"
+                    <a
                         class="icone icone-desktop icone--margem-direita navegacao__item-icone">Desktop</a>
                 </li>
                 <li class="navegacao__item navegacao__item--design" title="Identidades visuais e protótipos" role="listitem">
-                    <a href="#secao-design"
+                    <a
                         class="icone icone-design icone--margem-direita navegacao__item-icone">Design</a>
                 </li>
             </ul>
@@ -85,24 +85,14 @@
                     </li>
                 </ul>
             </div>
-            <a href="#secao-web" class="botao secao-apresentacao__ancora-projetos" title="Ir para seção de projetos">
+            <a id="link-aconra-projetos" href="#secao-projetos" class="botao secao-apresentacao__ancora-projetos" title="Ir para seção de projetos">
                 <span class="icone icone-seta-dupla--baixo icone--margem-direita icone--margem-esquerda">Projetos</span>
             </a>
         </section>
-        <section id="secao-web" class="secao-projetos">
-            
-        </section>
-        <section id="secao-mobile" class="secao-projetos">
-           
-        </section>
-        <section id="secao-desktop" class="secao-projetos">
-            
-        </section>
-        <section id="secao-design" class="secao-projetos">
-            
+        <section id="secao-projetos" class="secao-projetos">
         </section>
     </main>
-    <footer class="container rodape">
+    <footer id="rodape" class="container rodape">
         <small class="rodape__texto">© 2022, <a href="/">Luis Fernando V. Leal</a> </small>
         <ul class="rodape__lista-links" role="list">
             <li role="listitem">
@@ -125,7 +115,6 @@
             </li>
         </ul>
     </footer>
-    <script src="assets/js/cartao-dinamico.js" type="module"></script>
     <script src="assets/js/main.js" type="module"></script>
 </body>
 
