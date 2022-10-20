@@ -5,6 +5,10 @@ const cabecalhoLogo = document.querySelector('.cabecalho__logo');
 const todosItensDaNavegacao = document.querySelectorAll('.navegacao__item');
 const coresDaNavegacao = ['navegacao__item--ativo-web','navegacao__item--ativo-mobile','navegacao__item--ativo-desktop','navegacao__item--ativo-design'];
 export const secoesDeProjeto = document.querySelectorAll('.secao-projetos');
+const cartoesWeb = document.querySelectorAll('.cartao--web');
+const cartoesMobile = document.querySelectorAll('.cartao--mobile');
+const cartoesDesktop = document.querySelectorAll('.cartao--desktop');
+const cartoesDesign = document.querySelectorAll('.cartao--design');
 //#endregion
 
 //#region Funções de navegação (ao clicar -> reposicionar o scroll da tela).
@@ -19,7 +23,22 @@ for(let i = 0; i < todosItensDaNavegacao.length; i++){
 }
 //#endregion
 
-//Função do cabecalho/navegação (ficar visível e com cor referente a seção).
+
+const secaoWebInicio = cartoesWeb[0].offsetTop;
+const secaoWebFim = cartoesWeb[cartoesWeb.length - 1].offsetTop + cartoesWeb[cartoesWeb.length - 1].offsetHeight;
+
+const secaoMobileInicio = cartoesMobile[0].offsetTop;
+const secaoMobileFim = cartoesMobile[cartoesMobile.length - 1].offsetTop + cartoesMobile[cartoesMobile.length - 1].offsetHeight;
+
+const secaoDesktopInicio = cartoesDesktop[0].offsetTop;
+const secaoDesktopFim = cartoesDesktop[cartoesDesktop.length - 1].offsetTop + cartoesDesktop[cartoesDesktop.length - 1].offsetHeight;
+
+const secaoDesignInicio = cartoesDesign[0].offsetTop;
+const secaoDesignFim = cartoesDesign[cartoesDesign.length - 1].offsetTop + cartoesDesign[cartoesDesign.length - 1].offsetHeight;
+
+
+
+// //Função do cabecalho/navegação (ficar visível e com cor referente a seção).
 export function alterarEstadoDoCabecalho(){
     //Scroll muito antes das seções de projeto? Se sim -> não mostrar cabeçalho.
     if(window.scrollY < secoesDeProjeto[0].offsetTop - cabecalho.offsetHeight){
@@ -28,6 +47,19 @@ export function alterarEstadoDoCabecalho(){
             todosItensDaNavegacao[i].classList.remove(coresDaNavegacao[i]);
         }
         return;
+    }
+
+    if(window.scrollY >= secaoWebInicio && window.scrollY < secaoWebFim){
+        console.log('web');
+    }
+    if(window.scrollY >= secaoMobileInicio && window.scrollY < secaoMobileFim){
+        console.log('mobile');
+    }
+    if(window.scrollY >= secaoDesktopInicio && window.scrollY < secaoDesktopFim){
+        console.log('desktop');
+    }
+    if(window.scrollY >= secaoDesignInicio && window.scrollY < secaoDesignFim){
+        console.log('design');
     }
 
     //Está nas seções de projeto -> Ficar visível e com cores temas das seções.
@@ -45,3 +77,5 @@ export function alterarEstadoDoCabecalho(){
         }
     }
 }
+
+

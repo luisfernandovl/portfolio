@@ -1,5 +1,5 @@
 "strict mode"
-import { alterarEstadoDoCabecalho, cabecalho, secoesDeProjeto } from "./cabecalho.js";
+import { alterarEstadoDoCabecalho, cabecalho, secoesDeProjeto } from "./cabecalho_old.js";
 import { alterarEstadoDosCartoes } from "./cartao.js";
 
 //Função que estipula quantas vezes outra função é chamada.
