@@ -1,7 +1,10 @@
 "strict mode"
+import "./conexao.js";
+import './criarCartoes.js';
+import "./variaveisPadrao.js";
 import { alterarEstadoDoCabecalho } from "./animacaoCabecalho.js";
-import { alterarEstadoDosCartoes } from "./animacaoCartao.js";
 import "./animacaoAncoraProjetos.js";
+import { alterarEstadoDosCartoes } from "./animacaoCartao.js";
 
 //Função que estipula quantas vezes outra função é chamada.
 const debounce = function (func, wait, imediate) {
@@ -18,6 +21,7 @@ const debounce = function (func, wait, imediate) {
         if (callNow) func.apply(context, args);
     };
 };
+
 
 //Quando o scroll é ativo -> mostra (ou não) o cabeçalho e os cartões.
 window.addEventListener('scroll', debounce(function () {

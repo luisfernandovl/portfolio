@@ -9,32 +9,20 @@
     max-width: calc(328px * 2);
     overflow: hidden;
     position: relative;
-    transition: 500ms linear;
+    transition: 260ms cubic-bezier(0.4, 0.0, 0.6, 1);
     width: 100%;
-}
 
-.cartao:last-child{
-    margin-bottom: calc(32vh);
-}
-
-.cartao--invisivel-esquerda {
     left: -50%;
     opacity: 0;
 }
 
-.cartao--visivel-esquerda {
+.cartao--visivel {
     left: 0;
     opacity: 1;
 }
 
-.cartao--invisivel-direita {
-    opacity: 0;
-    right: -50%;
-}
-
-.cartao--visivel-direita {
-    opacity: 1;
-    right: 0;
+.cartao:last-child{
+    margin-bottom: calc(32vh);
 }
 
 .cartao__tecnologias {

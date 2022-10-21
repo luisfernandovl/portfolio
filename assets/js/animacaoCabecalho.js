@@ -30,9 +30,6 @@ export function alterarEstadoDoCabecalho() {
             if (window.scrollY >= posicoes[i] && window.scrollY < posicoes[i+1]) {
                 alterarCoresNavegacao(i);
             }
-            else {
-                continue;
-            }
         }
     }
 }
