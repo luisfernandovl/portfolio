@@ -40,45 +40,6 @@
     width: 100%;
 }
 
-.navegacao__lista {
-    color: var(--cor-desativada);
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.navegacao__item {
-    border-bottom: 3px solid #00000000;
-    box-sizing: border-box;
-    display: flex;
-    transition: 300ms linear;
-    -webkit-tap-highlight-color: #00000000;
-}
-
-.navegacao__item--ativo-web {
-    border-bottom: 3px solid var(--cor-web);
-    color: var(--cor-primaria);
-}
-
-.navegacao__item--ativo-mobile {
-    border-bottom: 3px solid var(--cor-mobile);
-    color: var(--cor-primaria);
-}
-
-.navegacao__item--ativo-desktop {
-    border-bottom: 3px solid var(--cor-desktop);
-    color: var(--cor-primaria);
-}
-
-.navegacao__item--ativo-design {
-    border-bottom: 3px solid var(--cor-design);
-    color: var(--cor-primaria);
-}
-
-.navegacao__item-icone::before {
-    display: none;
-}
-
 @media screen and (min-width: 768px) {
     .cabecalho {
         flex-direction: row;
@@ -93,20 +54,5 @@
     .cabecalho__navegacao {
         height: 100%;
         width: calc(100% - 4.166rem);
-    }
-
-    .navegacao__item {
-        justify-content: center;
-        width: 12.5%;
-    }
-
-    .navegacao__item:hover {
-        cursor: pointer;
-        color: var(--cor-primaria);
-    }
-
-    .navegacao__item-icone::before {
-        display: block;
-        font-size: 1.5rem;
     }
 }

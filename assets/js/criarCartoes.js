@@ -1,10 +1,6 @@
 import { projetos } from "./conexao.js";
 const secaoProjetos = document.querySelector('#secao-projetos');
 
-for (let i = 0; i < projetos.length; i++) {
-    secaoProjetos.innerHTML += criarCartao(projetos[i]);
-}
-
 function criarCartao(projeto) {
     return (`
     <div class="cartao cartao--${projeto.id}">
@@ -20,4 +16,9 @@ function criarCartao(projeto) {
         </div>
      </div>
      `);
+}
+
+//Adiciona os cartões dos projetos à seção de projetos
+for (let i = 0; i < projetos.length; i++) {
+    secaoProjetos.innerHTML += criarCartao(projetos[i]);
 }

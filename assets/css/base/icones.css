@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'fa-brands-400';
+    src: url(../../font/fa-brands-400.woff2);
+}
+
+.icone-alura {
+    font-size: var(--fonte-tamanho-texto-menor);
+    font-weight: var(--fonte-peso-bold);
+    height: 1rem;
+}
+
+.icone-design::before {
+    content: "\e746";
+    font-family: 'Material Symbols Sharp';
+}
+
+.icone-desktop::before {
+    content: "\e30c";
+    font-family: 'Material Symbols Sharp';
+}
+
+.icone-facebook::before {
+    content: "\f09a";
+    font-family: 'fa-brands-400';
+}
+
+.icone-figma::before {
+    content: "\f799";
+    font-family: 'fa-brands-400';
+}
+
+.icone-github::before {
+    content: "\f09b";
+    font-family: 'fa-brands-400';
+}
+
+.icone-instagram::before {
+    content: "\f16d";
+    font-family: 'fa-brands-400';
+}
+
+.icone-mobile::before {
+    content: "\e32c";
+    font-family: 'Material Symbols Sharp';
+}
+
+.icone-link::before {
+    content: "\e157";
+    font-family: 'Material Symbols Sharp';
+
+}
+
+.icone-linkedin::before {
+    content: "\f08c";
+    font-family: 'fa-brands-400';
+}
+
+.icone-seta-dupla--baixo::before,
+.icone-seta-dupla--baixo::after {
+    content: "\ead0";
+    font-family: 'Material Symbols Sharp';
+}
+
+.icone-twitter::before {
+    content: "\f099";
+    font-family: 'fa-brands-400';
+}
+
+.icone-web::before {
+    content: "\e894";
+    font-family: 'Material Symbols Sharp';
+}
+
+.icone-youtube::before {
+    content: "\f167";
+    font-family: 'fa-brands-400';
+}

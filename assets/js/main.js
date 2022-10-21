@@ -22,8 +22,7 @@ const debounce = function (func, wait, imediate) {
     };
 };
 
-
-//Quando o scroll é ativo -> mostra (ou não) o cabeçalho e os cartões.
+//Quando o scroll é ativo -> Mostra (ou não) o cabeçalho e os cartões.
 window.addEventListener('scroll', debounce(function () {
     alterarEstadoDoCabecalho();
     alterarEstadoDosCartoes();

@@ -20,8 +20,8 @@
 }
 
 .botao--web:hover,.botao--web:active {
-    border-color: var(--cor-web);
     background-color: var(--cor-web-tap);
+    border-color: var(--cor-web);
 }
 
 .botao--mobile {
@@ -30,8 +30,8 @@
 }
 
 .botao--mobile:hover,.botao--mobile:active {
-    border-color: var(--cor-mobile);
     background-color: var(--cor-mobile-tap);
+    border-color: var(--cor-mobile);
 }
 
 .botao--desktop {
@@ -40,8 +40,8 @@
 }
 
 .botao--desktop:hover,.botao--desktop:active {
-    border-color: var(--cor-desktop);
     background-color: var(--cor-desktop-tap);
+    border-color: var(--cor-desktop);
 }
 
 .botao--design {
@@ -50,6 +50,6 @@
 }
 
 .botao--design:hover,.botao--design:active {
-    border-color: var(--cor-design);
     background-color: var(--cor-design-tap);
+    border-color: var(--cor-design);
 }

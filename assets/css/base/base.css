@@ -1,20 +1,6 @@
 @import url(reset.css);
 @import url(variaveis.css);
-
-@font-face {
-    font-family: 'fa-brands-400';
-    src: url(../../font/fa-brands-400.woff2);
-}
-
-@font-face {
-    font-family: 'fa-v4compatibility';
-    src: url(../../font/fa-v4compatibility.woff2);
-}
-
-@font-face {
-    font-family: 'fa-regular';
-    src: url(../../font/fa-regular-400.woff2);
-}
+@import url(icones.css);
 
 body {
     background-color: var(--cor-fundo);
@@ -26,6 +12,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -47,83 +35,6 @@ body {
 
 .icone--margem-direita::before {
     margin-right: 0.25rem;
-}
-
-.icone-web::before {
-    content: "\e894";
-    font-family: 'Material Symbols Rounded';
-}
-
-.icone-mobile::before {
-    content: "\e32c";
-    font-family: 'Material Symbols Rounded';
-}
-
-.icone-desktop::before {
-    content: "\e30c";
-    font-family: 'Material Symbols Rounded';
-}
-
-.icone-design::before {
-    content: "\e746";
-    font-family: 'Material Symbols Rounded';
-}
-
-.icone-seta-dupla--baixo::before,
-.icone-seta-dupla--baixo::after {
-    content: "\ead0";
-    font-family: 'Material Symbols Rounded';
-}
-
-.icone-alura {
-    font-family: var(--fonte-familia-alura);
-    font-size: 1rem;
-    height: 1rem;
-}
-
-.icone-facebook::before {
-    content: "\f09a";
-    font-family: 'fa-brands-400';
-}
-
-.icone-figma::before {
-    content: "\f799";
-    font-family: 'fa-brands-400';
-}
-
-.icone-github::before {
-    content: "\f09b";
-    font-family: 'fa-brands-400';
-}
-
-.icone-mail::before {
-    content: "\f0e0";
-    font-family: 'fa-regular';
-}
-
-.icone-instagram::before {
-    content: "\f16d";
-    font-family: 'fa-brands-400';
-}
-
-.icone-link::before {
-    content: "\f08e";
-    font-family: 'fa-v4compatibility';
-}
-
-.icone-linkedin::before {
-    content: "\f08c";
-    font-family: 'fa-brands-400';
-}
-
-.icone-twitter::before {
-    content: "\f099";
-    font-family: 'fa-brands-400';
-}
-
-.icone-youtube::before {
-    content: "\f167";
-    font-family: 'fa-brands-400';
 }
 
 @media screen and (min-width: 1024px) {

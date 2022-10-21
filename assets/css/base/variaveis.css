@@ -1,5 +1,5 @@
 :root {
-    /* Cores - Temas*/
+    /* Cores - Base*/
     --cor-destaque: #F5F5F5;
     --cor-primaria: #E0E0E0;
     --cor-tap: #E0E0E02F;
@@ -28,7 +28,6 @@
     /* Fonte - Familias */
     --fonte-familia-marca: 'Turret Road', 'Oxanium', sans-serif;
     --fonte-familia-principal: 'Oxanium', sans-serif;
-    --fonte-familia-alura: 'Yanone Kaffeesatz', sans-serif;
     /* Fonte - Tamanhos */
     --fonte-tamanho-h1: 3.25rem;
     --fonte-tamanho-h2: 2.5rem;
