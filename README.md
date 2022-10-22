@@ -4,9 +4,9 @@ Este site têm como objetivo apresentar alguns dos meus projetos de <strong>Prog
 Ele foi inteiramente desenvolvido utilizando HTML, CSS e JavaScript sem auxílio de bibliotecas ou frameworks.
 
 ## Estrutura:
-- Breve apresentação            [ROXO - cor da identidade visual].
+- Breve apresentação            [Preto/Branco - cor da identidade visual].
 - Projetos
   - Sites                       [AZUL].
-  - Aplicativos movéis          [LARANJA].
+  - Aplicativos movéis          [AMARELO].
   - Programas para computadores [VERDE].
   - Protótipos de interfaces    [ROSA].
