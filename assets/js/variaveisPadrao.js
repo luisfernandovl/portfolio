@@ -1,7 +1,7 @@
 "strict mode"
 //#region Cabeçalho
 export const cabecalho = document.querySelector('#cabecalho');
-export const tamanhoCabecalhoEMargem = cabecalho.offsetHeight + 32;
+export const tamanhoCabecalhoEMargem = cabecalho.offsetHeight + 4;
 //#endregion
 
 //#region Navegação
@@ -26,10 +26,10 @@ export const projetosDesign = document.querySelectorAll('.cartao--design');
 export const fimSecaoProjetos = secaoProjetos.offsetTop + secaoProjetos.offsetHeight;
 export const posicoes = [
     inicioSecaoProjetos - tamanhoCabecalhoEMargem + 32,
-    projetosMobile[0].offsetTop - tamanhoCabecalhoEMargem + 1,
-    projetosDesktop[0].offsetTop - tamanhoCabecalhoEMargem + 1,
-    projetosDesign[0].offsetTop - tamanhoCabecalhoEMargem + 1,
-    fimSecaoProjetos - tamanhoCabecalhoEMargem + 1
+    projetosMobile[0].offsetTop - tamanhoCabecalhoEMargem,
+    projetosDesktop[0].offsetTop - tamanhoCabecalhoEMargem,
+    projetosDesign[0].offsetTop - tamanhoCabecalhoEMargem,
+    fimSecaoProjetos - tamanhoCabecalhoEMargem
 ]
 let somatorioAlturasCartoes = 0;
 for (let i = 0; i < todosProjetos.length; i++) {
