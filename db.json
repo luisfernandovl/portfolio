@@ -94,7 +94,7 @@
             "Expo"
         ],
         "titulo": "AluraHub",
-        "descricao": "O AluraHub é uma aplicação feita em React Native que permite salvar informações.",
+        "descricao": "O AluraHub é uma aplicação que busca perfis, além de cadastrar, listar, atualizar e deletar repositórios fictícios com json-server.",
         "botoes": [
             {
                 "link": "https://github.com/luisfernandovl/alurahub",
@@ -110,7 +110,7 @@
             "Expo"
         ],
         "titulo": "ProjetoNotas",
-        "descricao": "O ProjetoNotas é uma aplicação feita em React Native que permite salvar informações localmente através do SQLite.",
+        "descricao": "O ProjetoNotas é uma aplicação que permite salvar informações localmente através do SQLite.",
         "botoes": [
             {
                 "link": "https://github.com/luisfernandovl/projetonotas",
@@ -126,7 +126,7 @@
             "Expo"
         ],
         "titulo": "AluraCommerce",
-        "descricao": "O AluraCommerce é uma aplicação feita em React Native que simula um e-commerce.",
+        "descricao": "O AluraCommerce é uma aplicação que simula um e-commerce.",
         "botoes": [
             {
                 "link": "https://github.com/luisfernandovl/aluracommerce",
