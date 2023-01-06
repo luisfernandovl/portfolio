@@ -1,7 +1,7 @@
 "strict mode"
 //#region Cabeçalho
 export const cabecalho = document.querySelector('#cabecalho');
-export const tamanhoCabecalhoEMargem = cabecalho.offsetHeight + 24;
+export const tamanhoCabecalhoEMargem = cabecalho.offsetHeight + 32;
 //#endregion
 
 //#region Navegação
