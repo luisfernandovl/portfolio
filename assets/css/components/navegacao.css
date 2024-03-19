@@ -11,6 +11,8 @@
     display: flex;
     transition: 300ms linear;
     -webkit-tap-highlight-color: #00000000;
+
+    font:var(--title-medium);
 }
 
 .navegacao__item--ativo-web {

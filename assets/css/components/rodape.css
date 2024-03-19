@@ -5,6 +5,8 @@
     flex-direction: column;
     font-size: var(--fonte-tamanho-texto-legenda);
     padding: 1rem 1rem;
+
+    font: var(--label-medium);
 }
 
 .rodape__lista-links {
@@ -13,6 +15,8 @@
     font-size: var(--fonte-tamanho-texto-legenda);
     font-weight: var(--fonte-peso-semibold);
     justify-content: center;
+
+    font: var(--label-medium);
 }
 
 .rodape__link {

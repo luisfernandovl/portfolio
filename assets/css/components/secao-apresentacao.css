@@ -19,11 +19,20 @@
     flex-direction: column;
     font-family: var(--fonte-familia-marca);
     margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .secao-apresentacao__logo-simbolo {
     height: 5rem;
     margin-bottom: 0.5rem;
+}
+
+.secao-apresentacao__foto {
+    width: 10.125rem;
+    height: 10.125rem;
+    border-radius: 100%;
+    margin: .75rem;
 }
 
 .secao-apresentacao__logo-escrita {
@@ -40,18 +49,22 @@
 
 .secao-apresentacao__texto {
     color: var(--cor-primaria);
-    font-size: var(--fonte-tamanho-texto-grande);
+    /* font-size: var(--fonte-tamanho-texto-grande); */
     padding: 0 0.5rem;
     text-align: justify;
-    line-height: var(--fonte-entrelinha);
+    /* line-height: var(--fonte-entrelinha); */
+
+    font:var(--headline-small);
 }
 
 .secao-apresentacao__redes-sociais {
     display: flex;
     flex-flow: row wrap;
-    font-size: var(--fonte-tamanho-texto-legenda);
-    font-weight: var(--fonte-peso-semibold);
+    /* font-size: var(--fonte-tamanho-texto-legenda);
+    font-weight: var(--fonte-peso-semibold); */
     justify-content: center;
+
+    font:var(--label-medium);
 }
 
 .secao-apresentacao__rede-social {
@@ -60,9 +73,11 @@
 }
 
 .secao-apresentacao__ancora-projetos {
-    font-weight: var(--fonte-peso-light);
+    /* font-weight: var(--fonte-peso-light); */
     padding: 0.5rem 0.5rem;
     text-transform: uppercase;
+
+    font: var(--title-medium);
 }
 
 @media screen and (min-width: 768px) {

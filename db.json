@@ -7,7 +7,7 @@
             "JavaScript"
         ],
         "titulo": "Ponto Café",
-        "descricao": "Cardápio virtual de uma suposta cafeteria.",
+        "descricao": "Cardápio virtual.",
         "botoes": [
             {
                 "link": "https://luisfernandovl.github.io/pontocafe/",
@@ -29,7 +29,7 @@
             "JavaScript"
         ],
         "titulo": "KeyBox Escape Room",
-        "descricao": "Página de apresentação do local fictício.",
+        "descricao": "Página de apresentação do local.",
         "botoes": [
             {
                 "link": "https://luisfernandovl.github.io/keyboxescaperoom/",
