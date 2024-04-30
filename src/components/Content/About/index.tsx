@@ -4,10 +4,11 @@ import Image from "next/image";
 import LinkedinLogo from '@/assets/logos/linkedin.svg';
 import GitHubLogo from '@/assets/logos/github.svg';
 import GmailLogo from '@/assets/logos/gmail_icon.svg';
-import { motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function About() {
-  // Defina a animação desejada
+
+  // Define a animação
   const animationVariants = {
     hidden: {
       transform: 'translateZ(-160px) translateX(-100px)',
@@ -52,8 +53,8 @@ export default function About() {
         </div>
         <div className={Style.infos}>
           <h2 className={Style.name}>Luis Fernando Leal</h2>
-          <p className={Style.text}>Olá! Comecei minha jornada em 2018, quando iniciei na programação pela UNESP, no Colégio Técnico Industrial de Bauru. Desde então crio sites, aplicativos e desenvolvo softwares no geral.</p>
-          <p className={Style.text}>Possuo domínio em tecnologias usadas no Front-end da web (HTML, CSS, JavaScript, React com TypeScript, e Sass) e tenho experiência profissional como Desenvolvedor Full Stack C Sharp (C#).</p>
+          <p className={Style.text}>Olá! Comecei minha jornada em 2018, quando iniciei na programação pela UNESP, no Colégio Técnico Industrial de Bauru. Desde então, crio sites, aplicativos e desenvolvo softwares em geral.</p>
+          <p className={Style.text}>Possuo domínio em tecnologias usadas no Front-end da web (HTML, CSS, JavaScript, React com TypeScript e Sass) e tenho experiência profissional como Desenvolvedor Full Stack em C# (C Sharp).</p>
         </div>
       </motion.div>
     </section>

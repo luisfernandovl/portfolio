@@ -2,17 +2,15 @@ import Style from './menu.module.scss';
 import IconPerson from '@/assets/icons/person.svg';
 import IconTerminal from '@/assets/icons/terminal.svg';
 import IconTrendingUp from '@/assets/icons/trending_up.svg';
-import { useEffect } from 'react';
 
 interface Props {
-  isMenuVisible: boolean,
+  isMenuOpen: boolean,
 }
 
-export default function Menu({ isMenuVisible }: Props) {
-
+export default function Menu({ isMenuOpen }: Props) {
 
   return (
-    <menu id='menu' className={`${Style.container} ${isMenuVisible ? Style.showing : ''}`} role='menu' title='Menu'>
+    <menu id='menu' className={`${Style.container} ${isMenuOpen ? Style.showing : ''}`} role='menu' title='Menu'>
       <li className={Style.item} role='menuitem' title='Sobre mim'>
         <a href="#sobre_mim">
           <IconPerson className={Style.icon} />

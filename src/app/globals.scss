@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-  /* Typography */
+  /* Tipografia */
   font-size: 16px;
   --typography: "Nunito Sans", sans-serif;
 
-  --title-large: normal 400 22px/28px var(--typography);
-  --title-medium: normal 700 16px/24px var(--typography);
-  --body-large: normal 400 16px/24px var(--typography);
+  --title-large: normal 400 24px/32px var(--typography);
+  --title-medium: normal 700 18px/28px var(--typography);
+  --body-large: normal 400 18px/28px var(--typography);
   --label-large: normal 700 14px/20px var(--typography);
-  --label-small: normal 700 11px/16px var(--typography);
+  --label-small: normal 700 12px/20px var(--typography);
 
   --letter-spacing-xxl: 0.5px;
   --letter-spacing-xl: 0.4px;
@@ -19,7 +19,7 @@
   --letter-spacing-s: 0.1px;
   --letter-spacing-xs: -0.25px;
 
-  /* Elevations */
+  /* Sombras (Efeitos de Elevação) */
   --level-0: rgba(0, 0, 0, 0.2) 0px 0px 0px 0px, rgba(0, 0, 0, 0.14) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 0px 0px 0px;
   --level-1: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
   --level-2: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
@@ -28,6 +28,7 @@
   --level-5: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px, rgba(0, 0, 0, 0.12) 0px 5px 22px 4px;
 
 
+  /* Scroll */
   scroll-behavior: smooth;
 
   /* Estiliza a barra de rolagem em geral */
@@ -45,11 +46,30 @@
   ::-webkit-scrollbar-track {
     background-color: #00000000;
   }
+
+  /* Paleta de cores*/
+  --violet: #8268CA;
+  --white: #EEECF3;
+  --light-grayish-violet: #E3DFEC;
+  --grayish-violet:#605A72;
+  --very-dark-violet: #171320;
+  --black: #121019;
+
+  /* Transparência */
+  --tr-violet: #8268CA1d;
+  --tr-white: #EEECF31d;
+  --tr-grayish-violet:#605A721d;
+  --tr-black: #1210191d;
+
+  /* Outros */
+  --primary: var(--violet);
+  --primary-hover: var(--tr-violet);
+  --outline: var(--tr-grayish-violet);
 }
 
 body {
-  background-color: var(--surface);
-  color: var(--on-surface);
+  background-color: var(--black);
+  color: var(--black);
   font: var(--body-large);
   letter-spacing: var(--letter-spacing-xxl);
   overflow-x: hidden;
@@ -57,40 +77,32 @@ body {
 }
 
 .light-theme {
-  /* Color Palette */
-  --on-surface: #121019;
-  --on-surface-variant: #171320;
-  --surface: #E3DFEC;
-  --surface-variant: #EEECF3;
-  --hover: #EEECF31F;
-  --hover-variant: #1210191F;
+  /*Tema claro*/
+  --on-surface: var(--black);
+  --on-surface-variant: var(--very-dark-violet);
+  --surface: var(--light-grayish-violet);
+  --surface-variant: var(--white);
+  --hover: var(--tr-white);
+  --hover-variant: var(--tr-black);
 
-  --outline: #605a724d;
-  --primary: #8268CA;
-  --primary-hover: #8268CA1F;
-
-  --white: #EEECF3;
+  background-color: var(--surface);
+  color: var(--on-surface);
 }
 
 .dark-theme {
-  /* Color Palette */
-  --on-surface: #EEECF3;
-  --on-surface-variant: #E3DFEC;
-  --surface: #121019;
-  --surface-variant: #171320;
-  --hover: #1210191F;
-  --hover-variant: #EEECF31F;
+  /* Tema escuro*/
+  --on-surface: var(--white);
+  --on-surface-variant: var(--light-grayish-violet);
+  --surface: var(--black);
+  --surface-variant: var(--very-dark-violet);
+  --hover: var(--tr-black);
+  --hover-variant: var(--tr-white);
 
-  --outline: #605a724d;
-  --primary: #8268CA;
-  --primary-hover: #8268CA1F;
-
-  --white: #EEECF3;
+  background-color: var(--surface);
+  color: var(--on-surface);
 }
 
-
-
-// Dispositivos Large (desktops, 992px e acima)
+// Dispositivos grandes (desktops, 992px e acima)
 @media (min-width: 992px) {
   :root {
     --title-large: normal 400 24px/32px var(--typography);

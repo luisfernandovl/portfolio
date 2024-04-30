@@ -14,10 +14,10 @@ interface Props {
 
 export default function Card({ gif, image, title, description, tags, link }: Props) {
 
-  const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false); //Estado do cartão (hover do mouse e touch em cima)
 
-  const controls = useAnimation();
-  const ref = useRef<HTMLAnchorElement>(null); // Defina o tipo da referência como HTMLLIElement
+  const controls = useAnimation(); //controla as variações da animação
+  const ref = useRef<HTMLLIElement>(null); // Cria referência no cartão
 
   // Função para verificar a posição do scroll e ativar a animação
   function handleScroll() {
@@ -53,21 +53,24 @@ export default function Card({ gif, image, title, description, tags, link }: Pro
     },
   };
   return (
-    <motion.a href={`${link}`} target='_blank' className={Style.container} onHoverStart={() => setHover(true)} onHoverEnd={() => setHover(false)} onTouchStart={() => setHover(true)}
+    <motion.li onHoverStart={() => setHover(true)} onHoverEnd={() => setHover(false)} onTouchStart={() => setHover(true)}
       ref={ref}
       animate={controls}
       initial="hidden"
       variants={animationVariants}
     >
-      <div>
-        {hover ? <Image className={Style.midia} src={gif} alt='' /> : <Image className={Style.midia} src={image} alt='' />}
-        <div className={Style.details}>
-          <h3 className={Style.title}>{title}</h3>
-          <p className={Style.description}>{description}</p>
-          <p className={Style.tags}>{tags}</p>
+      <a href={`${link}`} target='_blank'  className={Style.container}>
+        <div>
+          {hover ? <Image className={Style.midia} src={gif} alt='' /> : <Image className={Style.midia} src={image} alt='' />}
+          <div className={Style.details}>
+            <h3 className={Style.title}>{title}</h3>
+            <p className={Style.description}>{description}</p>
+            <p className={Style.tags}>{tags}</p>
+          </div>
         </div>
-      </div>
-      <div className={Style.button}>Visitar</div>
-    </motion.a>
+        <div className={Style.button}>Visitar</div>
+      </a>
+
+    </motion.li>
   );
 }

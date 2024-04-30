@@ -7,15 +7,15 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  font: var(--label-small);
   justify-content: center;
+  letter-spacing: var(--letter-spacing-xxl);
   min-height: 4.5rem;
   min-width: 4.5rem;
-  user-select: none;
-  font: var(--label-small);
-  letter-spacing: var(--letter-spacing-xxl);
   transition: background-color 0.5s, box-shadow 0.3s;
+  user-select: none;
   z-index: 2;
-  
+
   .icon {
     fill: var(--primary);
     height: 2rem;
@@ -23,11 +23,13 @@
   }
 
   &:hover {
-    box-shadow: var(--level-1);
     background-color: var(--primary-hover);
+    border: 1px solid var(--primary);
+    box-shadow: var(--level-1);
   }
 
   &:active {
     background-color: var(--hover-variant);
+    border: 1px solid var(--on-surface);
   }
 }

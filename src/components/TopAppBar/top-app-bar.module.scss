@@ -8,9 +8,10 @@
   padding: .5rem .375rem .5rem .75rem;
   position: sticky;
   top: 0px;
+  transition: background-color 0.5s, box-shadow 0.3s;
   width: 100%;
   z-index: 3;
-  transition: background-color 0.5s, box-shadow 0.3s;
+
   .logo {
     height: 2rem;
     width: 2rem;
@@ -19,7 +20,7 @@
       fill: var(--primary);
       height: 2rem;
       width: 2rem;
-    } 
+    }
   }
 
   .nav {
@@ -29,14 +30,14 @@
     .icon_button {
       border-radius: 100%;
       cursor: pointer;
-      height: 1.25rem;
+      height: 1.5rem;
       padding: .375rem;
-      width: 1.25rem;
+      width: 1.5rem;
 
       .svg {
         fill: var(--primary);
-        height: 1.25rem;
-        width: 1.25rem;
+        height: 1.5rem;
+        width: 1.5rem;
       }
 
       &:hover {

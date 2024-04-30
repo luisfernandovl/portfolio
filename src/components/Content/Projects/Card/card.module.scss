@@ -1,21 +1,22 @@
 .container {
-  justify-content: space-between;
   background-color: var(--surface-variant);
   border: 1px solid var(--outline);
   border-radius: .75rem;
   box-shadow: var(--level-3);
+  cursor: pointer;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  max-width: 480px;
   overflow: hidden;
   padding-bottom: .75rem;
   row-gap: .375rem;
-  max-width: 21rem;
   transition: background-color 0.5s, box-shadow 0.3s;
   z-index: 2;
-  cursor: pointer;
 
   &:hover {
     border: 1px solid var(--primary);
+    box-shadow: var(--level-1);
   }
 
   &:active {
@@ -23,8 +24,8 @@
   }
 
   .midia {
-    height: 11.813rem;
-    width: 21rem;
+    height: auto;
+    width: 100%;
   }
 
   .details {
@@ -41,19 +42,19 @@
 
     .tags {
       color: var(--primary);
-      font: var(--label-small);
+      font: var(--label-large);
       letter-spacing: var(--letter-spacing-xxl);
     }
   }
 
   .button {
     align-self: flex-end;
-    justify-self: flex-end;
     background-color: var(--primary);
     border-radius: .75rem;
     color: var(--white);
     cursor: pointer;
     font: var(--label-large);
+    justify-self: flex-end;
     letter-spacing: var(--letter-spacing-xxl);
     margin-right: .75rem;
     padding: .625rem 1.5rem;

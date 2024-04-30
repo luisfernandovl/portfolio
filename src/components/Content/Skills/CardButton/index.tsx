@@ -10,7 +10,7 @@ interface Props {
 
 export default function CardButton({ label, Icon, link }: Props) {
   const controls = useAnimation();
-  const ref = useRef<HTMLLIElement>(null); // Defina o tipo da referência como HTMLLIElement
+  const ref = useRef<HTMLLIElement>(null);
 
   // Função para verificar a posição do scroll e ativar a animação
   function handleScroll() {
@@ -33,7 +33,7 @@ export default function CardButton({ label, Icon, link }: Props) {
     };
   });
 
-  // Defina a animação desejada
+  // Define a animação desejada
   const animationVariants = {
     hidden: {
       transform: 'translateZ(-160px) translateX(-100px)',
