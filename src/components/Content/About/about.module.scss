@@ -1,0 +1,109 @@
+.container {
+  align-items: center;
+  border-bottom: 1px solid var(--outline);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem .75rem;
+  row-gap: .75rem;
+
+
+  .title {
+    font: var(--title-medium);
+    letter-spacing: var(--letter-spacing-m);
+  }
+
+  .introduce {
+    align-items: center;
+    background-color: var(--surface-variant);
+    border: 1px solid var(--outline);
+    border-radius: .75rem;
+    box-shadow: var(--level-3);
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    padding: .75rem;
+    row-gap: 0.75rem;
+    transition: background-color 0.5s, box-shadow 0.3s;
+    column-gap: .75rem;
+    // transform: translateZ(-160px) translateX(-100px);
+    // opacity: 0%;
+
+    .social_media {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.75rem;
+
+      .profile_pic {
+        border-radius: 100%;
+        height: 10.125rem;
+        width: 10.125rem;
+      }
+
+      .list {
+        column-gap: .75rem;
+        display: flex;
+
+        .item {
+          align-items: center;
+          background-color: var(--surface-variant);
+          border: 1px solid var(--outline);
+          border-radius: .75rem;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          min-height: 4rem;
+          min-width: 4rem;
+          user-select: none;
+          font: var(--label-small);
+          letter-spacing: var(--letter-spacing-xxl);
+          row-gap: .375rem;
+          transition: background-color 0.5s;
+
+
+          .icon {
+            fill: var(--primary);
+            height: 1.25rem;
+            width: 1.25rem;
+          }
+
+          &:hover {
+            background-color: var(--primary-hover);
+          }
+
+          &:active {
+            background-color: var(--hover-variant);
+          }
+        }
+      }
+    }
+
+    .infos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .name {
+        font: var(--title-large);
+      }
+
+      .text {
+        font: var(--body-large);
+        letter-spacing: var(--letter-spacing-xxl);
+        text-align: justify;
+      }
+    }
+  }
+}
+
+// Dispositivos Large (desktops, 992px e acima)
+@media (min-width: 992px) {
+  .container {
+
+    .introduce {
+      max-width: 840px;
+      flex-direction: row;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  background-color: var(--primary);
+  border-radius: 100%;
+  bottom: 4.75rem;
+  box-shadow: var(--level-5);
+  display: flex;
+  overflow: hidden;
+  padding: .25rem;
+  position: fixed;
+  right: .375rem;
+  z-index: 5;
+
+  .icon {
+    fill: var(--white);
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &:hover {
+    filter: brightness(90%);
+  }
+
+  &:active{
+    box-shadow: var(--level-1);
+  }
+}

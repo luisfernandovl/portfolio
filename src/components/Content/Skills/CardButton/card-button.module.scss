@@ -1,0 +1,33 @@
+.container {
+  align-items: center;
+  background-color: var(--surface-variant);
+  border: 1px solid var(--outline);
+  border-radius: .75rem;
+  box-shadow: var(--level-3);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 4.5rem;
+  min-width: 4.5rem;
+  user-select: none;
+  font: var(--label-small);
+  letter-spacing: var(--letter-spacing-xxl);
+  transition: background-color 0.5s, box-shadow 0.3s;
+  z-index: 2;
+  
+  .icon {
+    fill: var(--primary);
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &:hover {
+    box-shadow: var(--level-1);
+    background-color: var(--primary-hover);
+  }
+
+  &:active {
+    background-color: var(--hover-variant);
+  }
+}

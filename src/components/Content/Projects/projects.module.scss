@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+  border-bottom: 1px solid var(--outline);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem .75rem;
+  row-gap: .75rem;
+
+  .title {
+    font: var(--title-medium);
+    letter-spacing: var(--letter-spacing-m);
+  }
+
+  .list_view {
+    column-gap: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 1.5rem;
+  }
+}

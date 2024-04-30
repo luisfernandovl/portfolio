@@ -1,0 +1,20 @@
+.container {
+  align-items: center;
+  display: flex;
+  padding: 1.5rem .75rem;
+  justify-content: center;
+  user-select: none;
+
+  .copyright {
+    font: var(--label-small);
+    letter-spacing: var(--letter-spacing-xxl);
+
+    &:hover {
+      color: var(--primary);
+    }
+
+    &:active {
+      color: var(--primary);
+    }
+  }
+}

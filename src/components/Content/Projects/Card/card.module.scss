@@ -1,0 +1,67 @@
+.container {
+  justify-content: space-between;
+  background-color: var(--surface-variant);
+  border: 1px solid var(--outline);
+  border-radius: .75rem;
+  box-shadow: var(--level-3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: .75rem;
+  row-gap: .375rem;
+  max-width: 21rem;
+  transition: background-color 0.5s, box-shadow 0.3s;
+  z-index: 2;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid var(--primary);
+  }
+
+  &:active {
+    border: 1px solid var(--on-surface);
+  }
+
+  .midia {
+    height: 11.813rem;
+    width: 21rem;
+  }
+
+  .details {
+    padding: .75rem 0rem .75rem .75rem;
+
+    .title {
+      font: var(--title-large);
+    }
+
+    .description {
+      font: var(--body-large);
+      letter-spacing: var(--letter-spacing-xxl);
+    }
+
+    .tags {
+      color: var(--primary);
+      font: var(--label-small);
+      letter-spacing: var(--letter-spacing-xxl);
+    }
+  }
+
+  .button {
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: var(--primary);
+    border-radius: .75rem;
+    color: var(--white);
+    cursor: pointer;
+    font: var(--label-large);
+    letter-spacing: var(--letter-spacing-xxl);
+    margin-right: .75rem;
+    padding: .625rem 1.5rem;
+    user-select: none;
+    width: fit-content;
+
+    &:hover {
+      filter: opacity(90%);
+    }
+  }
+}
