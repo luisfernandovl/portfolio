@@ -1,6 +1,7 @@
 .container {
   align-items: center;
   border-bottom: 1px solid var(--outline);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding: 1.5rem .75rem;

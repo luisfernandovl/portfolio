@@ -3,16 +3,18 @@
   border: 1px solid var(--outline);
   border-radius: .75rem;
   box-shadow: var(--level-3);
+  box-sizing: border-box;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 480px;
+  max-width: 336px;
   overflow: hidden;
   padding-bottom: .75rem;
   row-gap: .375rem;
   transition: background-color 0.5s, box-shadow 0.3s;
   z-index: 2;
+  width: 100%;
 
   &:hover {
     border: 1px solid var(--primary);
@@ -24,11 +26,14 @@
   }
 
   .midia {
+    max-height: 189px;
+    max-width: 336px;
     height: auto;
     width: 100%;
   }
 
   .details {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: .75rem .75rem .75rem .75rem;
