@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 336px;
+  max-width: 480px;
   overflow: hidden;
   padding-bottom: .75rem;
   row-gap: .375rem;
@@ -26,8 +26,8 @@
   }
 
   .midia {
-    max-height: 189px;
-    max-width: 336px;
+    max-height: 270px;
+    max-width: 480px;
     height: auto;
     width: 100%;
   }
