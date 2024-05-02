@@ -29,7 +29,10 @@
   }
 
   .details {
-    padding: .75rem 0rem .75rem .75rem;
+    display: flex;
+    flex-direction: column;
+    padding: .75rem .75rem .75rem .75rem;
+    width: 100%;
 
     .title {
       font: var(--title-large);
