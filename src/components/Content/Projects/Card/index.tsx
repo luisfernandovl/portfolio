@@ -53,13 +53,13 @@ export default function Card({ gif, image, title, description, tags, link }: Pro
     },
   };
   return (
-    <motion.li onHoverStart={() => setHover(true)} onHoverEnd={() => setHover(false)} onTouchStart={() => setHover(true)}
+    <motion.li onHoverStart={() => setHover(true)} onHoverEnd={() => setHover(false)}
       ref={ref}
       animate={controls}
       initial="hidden"
       variants={animationVariants}
     >
-      <a href={`${link}`} target='_blank'  className={Style.container}>
+      <a href={`${link}`} target='_blank' className={Style.container}>
         <div>
           {hover ? <Image className={Style.midia} src={gif} alt='' /> : <Image className={Style.midia} src={image} alt='' />}
           <div className={Style.details}>
