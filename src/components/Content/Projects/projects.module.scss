@@ -15,8 +15,16 @@
   .list_view {
     column-gap: 1.5rem;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     justify-content: center;
     row-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    .list_view {
+      flex-flow: row wrap;
+    }
   }
 }
