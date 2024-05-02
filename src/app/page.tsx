@@ -20,10 +20,9 @@ export default function Home() {
   }
 
   useEffect(() => {
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const currentHour = new Date().getHours();
 
-    if (prefersDarkMode || currentHour >= 19) {
+    if (currentHour >= 19) {
       setTheme('dark-theme');
     } else {
       setTheme('light-theme');

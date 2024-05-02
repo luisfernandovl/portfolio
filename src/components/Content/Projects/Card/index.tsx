@@ -4,8 +4,8 @@ import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
 interface Props {
-  gif: StaticImageData,
-  image: StaticImageData,
+  gif: StaticImageData | string,
+  image: StaticImageData | string,
   title: string,
   description: string,
   tags: string,
